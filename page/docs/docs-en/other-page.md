@@ -9,10 +9,10 @@ my_en_data es = {{ my_en_data }}
 
 Some text
 
-<img src="{{ assets_folder }}/img/cordoba-rio.jpg"/>
+<img src="{{ assets_folder }}/img/matrix.jpg"/>
 
 ## Img as markdown style
 
 Some text
 
-[!cba river]({{ assets_folder }}/img/cordoba-rio.jpg)
+![cba river]({{ assets_folder }}/img/matrix.jpg)
