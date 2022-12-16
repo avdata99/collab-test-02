@@ -9,7 +9,7 @@ site_url: https://avdata99.github.io/collab-test-02/
 repo_url: https://github.com/avdata99/collab-test-02
 
 # Usually required for github pages. This is a base path for all URLs
-public_url_base_path: /okfn-collaborative-docs
+public_url_base_path: /collab-test-02
 
 site_description: 
   en: |
