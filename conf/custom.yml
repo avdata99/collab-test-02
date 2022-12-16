@@ -1,0 +1,71 @@
+# Define your multilanguage documentation page here
+
+# Site names for each languages defines which languages are available
+site_name:
+    en: My site name
+    es: Mi sitio
+
+site_url: https://okfn.github.io/okfn-collaborative-docs/
+repo_url: https://github.com/okfn/okfn-collaborative-docs
+
+# Usually required for github pages. This is a base path for all URLs
+public_url_base_path: /okfn-collaborative-docs
+
+site_description: 
+  en: |
+    This is the site description
+    (a test version)
+  es: |
+    Esta es la descripción
+    del sitio
+
+site_author:
+    en: Me me@okfn.org
+    es: Yo yo@okfn.org
+
+copyright:
+    en: | 
+        Creative commons BY-SA.
+        No rigths reserved @okfn
+    es: |
+        Creative commons BY-SA.
+        Sin derechos reservados @okfn
+
+
+# Environment variables available for all md or HTML files
+# They are the same for all languages. Feel free to use
+# values like "- some-en-var: XX" + "- some-es-var: XX" to define 
+# different values for each language
+
+custom_extra:
+  # define all available languages
+  alternate:
+    - name: English
+      lang: en
+    - name: Español
+      lang: es
+  test_var: "This is a test variable accessible as {{ test_var }}"
+  test_complex_obj:
+    test_var2: "This is a test variable accessible as {{ test_complex_obj.test_var }}"
+    test_var3: "This is a test variable accessible as {{ test_complex_obj.test_var2 }}"
+
+# Site index for all languages
+# md files are relatives to the page/docs/docs-LANG folder
+# The HOME page should always point to an index.md file
+
+nav:
+  nav-en:
+      - Home: index.md
+      - About:
+          - General: about/general.md
+          - License: about/license.md
+      - Test page: test-page.md
+      - Issue tracker: https://github.com/okfn/okfn-collaborative-docs/issues
+
+  nav-es:
+      - Inicio: index.md
+      - Acerca de: 
+          - General: acerca-de/generales.md
+          - Licencia: acerca-de/licencia.md
+      - Pagina de prubas: pagina-pruebas.md
+      - Reportar errores: https://github.com/okfn/okfn-collaborative-docs/issues
