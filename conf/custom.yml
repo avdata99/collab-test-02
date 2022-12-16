@@ -5,8 +5,8 @@ site_name:
     en: OKFN Collab test 2 (english)
     es: OKFN Colab test 2 (español)
 
-site_url: https://okfn.github.io/okfn-collaborative-docs/
-repo_url: https://github.com/okfn/okfn-collaborative-docs
+site_url: https://avdata99.github.io/collab-test-02/
+repo_url: https://github.com/avdata99/collab-test-02
 
 # Usually required for github pages. This is a base path for all URLs
 public_url_base_path: /okfn-collaborative-docs
