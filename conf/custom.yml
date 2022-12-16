@@ -46,7 +46,7 @@ custom_extra:
       lang: es
   my_en_text_data: "This is a custom data"
   my_es_text_data: "Esta es una data personalizada"
-  my-data:
+  my_data:
     - "This is a custom data"
     - "This is another custom data"
   my_es_dato:

@@ -2,8 +2,8 @@
 
 Probando variables de contexto
 
-my_es_text_data es = {{ my_es_text_data }}
-my_es_dato es = {{ my_es_dato }}
+my_es_text_data es = {{ my_es_text_data }}  
+my_es_dato es = {{ my_es_dato }}  
 
 ## Img as html
 
