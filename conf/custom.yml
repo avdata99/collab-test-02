@@ -2,8 +2,8 @@
 
 # Site names for each languages defines which languages are available
 site_name:
-    en: My site name
-    es: Mi sitio
+    en: OKFN Collab test 2 (english)
+    es: OKFN Colab test 2 (español)
 
 site_url: https://okfn.github.io/okfn-collaborative-docs/
 repo_url: https://github.com/okfn/okfn-collaborative-docs
@@ -44,10 +44,14 @@ custom_extra:
       lang: en
     - name: Español
       lang: es
-  test_var: "This is a test variable accessible as {{ test_var }}"
-  test_complex_obj:
-    test_var2: "This is a test variable accessible as {{ test_complex_obj.test_var }}"
-    test_var3: "This is a test variable accessible as {{ test_complex_obj.test_var2 }}"
+  my_en_text_data: "This is a custom data"
+  my_es_text_data: "Esta es una data personalizada"
+  my-data:
+    - "This is a custom data"
+    - "This is another custom data"
+  my_es_dato:
+    - "Esta es un dato personalizada"
+    - "Esta es otro dato personalizada"
 
 # Site index for all languages
 # md files are relatives to the page/docs/docs-LANG folder
@@ -56,6 +60,7 @@ custom_extra:
 nav:
   nav-en:
       - Home: index.md
+      - Other page: other-page.md
       - About:
           - General: about/general.md
           - License: about/license.md
@@ -64,6 +69,7 @@ nav:
 
   nav-es:
       - Inicio: index.md
+      - Otra página: otra-pagina.md
       - Acerca de: 
           - General: acerca-de/generales.md
           - Licencia: acerca-de/licencia.md
