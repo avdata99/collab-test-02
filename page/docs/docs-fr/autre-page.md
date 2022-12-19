@@ -2,8 +2,8 @@
 
 Probando variables de contexto
 
-my_fr_text_data fr = {{ my_es_text_data }}  
-my_fr_fait fr = {{ my_es_dato }}  
+my_fr_text_data fr = {{ my_fr_text_data }}  
+my_fr_fait fr = {{ my_fr_fait }}  
 
 ## Img as html
 
