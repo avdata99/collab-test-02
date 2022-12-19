@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://avdata99.github.io/collab-test-02/index.html</loc>
+         <lastmod>2022-12-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://avdata99.github.io/collab-test-02/other-page.html</loc>
+         <lastmod>2022-12-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://avdata99.github.io/collab-test-02/test-page.html</loc>
+         <lastmod>2022-12-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://avdata99.github.io/collab-test-02/about/general.html</loc>
+         <lastmod>2022-12-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://avdata99.github.io/collab-test-02/about/license.html</loc>
+         <lastmod>2022-12-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
