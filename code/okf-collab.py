@@ -40,7 +40,7 @@ def build_config(env):
     # Changes for prod env
     if env == 'prod':
         # Prod env can use custom base path for URLs, locally is not required
-        base_config['extra']['assets_folder'] = base_config['public_url_base_path'] + base_config['extra']['assets_folder']
+        base_config['extra']['assets_folder'] = custom_config['public_url_base_path'] + base_config['extra']['assets_folder']
 
     # Copy general assets (for all languages).
     src_folder = Path(BASE_PAGE_FOLDER) / 'assets'
