@@ -4,6 +4,7 @@
 site_name:
     en: OKFN Collab test 2 (english)
     es: OKFN Colab test 2 (español)
+    fr: OKFN Colab test 2 (français)
 
 site_url: https://avdata99.github.io/collab-test-02/
 repo_url: https://github.com/avdata99/collab-test-02
@@ -18,10 +19,14 @@ site_description:
   es: |
     Esta es la descripción
     del sitio
+  fr: |
+    Ceci est la description
+    du site
 
 site_author:
     en: Me me@okfn.org
     es: Yo yo@okfn.org
+    fr: Moi moi@okfn.org
 
 copyright:
     en: | 
@@ -30,6 +35,9 @@ copyright:
     es: |
         Creative commons BY-SA.
         Sin derechos reservados @okfn
+    fr: |
+        Creative commons BY-SA.
+        Aucun droit réservé @okfn
 
 
 # Environment variables available for all md or HTML files
@@ -44,18 +52,26 @@ custom_extra:
       lang: en
     - name: Español
       lang: es
+    - name: Français
+      lang: fr
   my_en_text_data: "This is a custom data"
   my_es_text_data: "Esta es una data personalizada"
+  my_fr_text_data: "Ceci est une donnée personnalisée"
   my_data:
     - "This is a custom data"
     - "This is another custom data"
   my_es_dato:
     - "Esta es un dato personalizada"
     - "Esta es otro dato personalizada"
+  my_fr_fait:
+    - "Ceci est une donnée personnalisée"
+    - "Ceci est une autre donnée personnalisée"
 
 # Site index for all languages
 # md files are relatives to the page/docs/docs-LANG folder
+# *****************************************************
 # The HOME page should always point to an index.md file
+# *****************************************************
 
 nav:
   nav-en:
@@ -75,3 +91,12 @@ nav:
           - Licencia: acerca-de/licencia.md
       - Pagina de prubas: pagina-pruebas.md
       - Reportar errores: https://github.com/okfn/okfn-collaborative-docs/issues
+  
+  nav-fr:
+      - Accueil: index.md
+      - Autre page: autre-page.md
+      - À propos: 
+          - Général: a-propos/generales.md
+          - Licence: a-propos/licence.md
+      - Page de test: page-test.md
+      - Signaler un problème: https://github.com/okfn/okfn-collaborative-docs/issues
