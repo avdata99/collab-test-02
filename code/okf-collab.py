@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 import shutil
 from mkdocs.commands import build
@@ -110,6 +111,8 @@ def build_config(env):
         with open(final_config_file, 'w') as f:
             yaml.dump(config, f)
         click.echo(f'Config file written to {final_config_file}')
+        config_nice_str = json.dumps(config, indent=4)
+        click.echo(f'***********\nFinal Config: \n{config_nice_str}\n***********\n')
 
 
 @cli.command(
